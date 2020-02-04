@@ -1,0 +1,29 @@
+body{
+    background-color: #eac7ff;
+}
+header h1{
+    color: red;
+    text-align: center;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+} 
+header nav ul{
+    text-align: center;
+}
+.one{
+    color: red;
+}
+
+img{
+    width: 300px;
+    height: 300px ; 
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
