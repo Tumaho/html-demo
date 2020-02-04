@@ -1,16 +1,19 @@
 var date = new Date();
 
-var m = date.getMonth();
+var m = date.getMonth()+1;
 var y = date.getFullYear();
 var name = prompt("what is your name?");
 var year = prompt("what year were you born?");
 if (year > 1940 && year <=2020) {
     var age1= y-year;
     var month = prompt("what month were you born?");
-    if(month >1 && month <=12 ){
+    if(month >=1 && month <=12 ){
         
-        var age2= m-month;
-        Math.abs(age2);
+        
+
+        var age2= 12-Math.abs(m-month);
+        
+       
         if (month >m) {
             age1=age1-1;
         }
