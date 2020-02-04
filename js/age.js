@@ -17,7 +17,7 @@ if (year > 1940 && year <=2020) {
         if (month >m) {
             age1=age1-1;
         }
-        else{}
+        
         document.write('<h3>'+"OK"+name+" your age is"+age1+"years, And"+age2+"months"+'</h3>')
 
     }
