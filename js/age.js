@@ -19,7 +19,7 @@ if (year > 1940 && year <=2020) {
             age1=age1-1;
         }
         
-        document.write('<h3>'+"OK "+fname+" "+lname+"  your age is"+age1+"years"+'</h3>');
+        document.write('<h3>'+"OK "+fname+" "+lname+"  your age is  "+age1+" years"+'</h3>');
 
     }
     else{
