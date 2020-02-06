@@ -2,7 +2,7 @@ var date = new Date();
 
 var m = date.getMonth()+1;
 var y = date.getFullYear();
-var final = calAge(y,m);s
+var final = calAge(y,m);
 document.write(final);
 loops();
 
