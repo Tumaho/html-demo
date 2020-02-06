@@ -1,3 +1,10 @@
+var date = new Date();
+
+var m = date.getMonth()+1;
+var y = date.getFullYear();
+var final = calAge(y,m);s
+document.write(final);
+loops();
 
 function calAge(a,b){
 var fname = prompt("what is your first name?");
@@ -64,7 +71,7 @@ var date = new Date();
 
 var m = date.getMonth()+1;
 var y = date.getFullYear();
-var final = calAge(y,m);
+var final = calAge(y,m);s
 document.write(final);
 loops();
 
